@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 25px;
+    padding: 0;
+    background-color: black;
+}
+header{
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+#p1 {
+    color: white;
+    text-align: center;
+}
+h1 {
+    text-shadow: 3px 3px 5px rgb(244, 23, 23),-3px -3px 5px rgb(23, 32, 244);
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+
+nav a:hover {
+  color: orangered;
+}
+p::selection {
+    background: orangered;
+    color: black;
+}
+
+.pagination {
+    text-align: center;
+} 
+.pagination a {
+    text-decoration: none;
+    color: orangered;
+    padding:8px 16px;
+    border: 2px solid orangered; 
+    margin: 0px 4px;
+}
+.pagination a.active {
+    background-color: white;
+    font-weight: bold;
+}

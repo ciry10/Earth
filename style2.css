@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 25px;
+    padding: 0;
+    background-color: black;
+}
+
+header{
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+
+nav a:hover {
+  color: orangered;
+}
+
+.pagination {
+    text-align: center;
+} 
+.pagination a {
+    text-decoration: none;
+    color: orangered;
+    padding:8px 16px;
+    border: 2px solid orangered; 
+    margin: 0px 4px;
+}
+.pagination a.active {
+    background-color: white;
+    font-weight: bold;
+}
+
+h1 {
+    text-shadow: 3px 3px 5px rgb(244, 23, 23),-3px -3px 5px rgb(23, 32, 244);
+}
+
+.gallery img {
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(255,255,255,0.2);
+    background-color: #222;
+    padding: 5px;
+}
+
+.about {
+    font-size: 7.5em;
+    color: white;
+    font-weight: bold;
+    background: none;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    text-align: left;
+    margin: 40px 0;
+    max-width: none;
+}
+
+.contact {
+    font-size: 7em;
+    color: white;
+    font-weight: bold;
+    background: none;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    text-align: left;
+    margin: 40px 0;
+    max-width: none;
+}
